@@ -1,0 +1,74 @@
+Fonctionnalités
+Un atelier de modélisation complet
+pour concevoir vos applications de gestion
+
+IS Designer fournit un atelier de modélisation graphique et collaboratif qui couvre l’ensemble des besoins d’analyse et de conception d’applications de gestion : de la structure et de la cinématique des écrans jusqu’à la base de données, en passant par la couche de services et les objets métiers.
+
+---
+UN MODELEUR POUR CHAQUE ÉTAPE DE VOTRE PROJET
+
+Requirements Designer
+Modéliser les exigences liées à l’application
+
+Graal Designer
+Modéliser les besoins utilisateurs
+
+SOA Designer
+Modéliser les interfaces de composants applicatifs
+
+Entity Designer
+Modéliser les structures de données
+
+Database Designer
+Modéliser une base de données relationnelle
+
+Cinematic Designer
+Modéliser vos IHM
+
+---
+
+Représentation visuelle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+---
+Intégration des applications et bases de données existantes
+
+---
+Génération documentaire
+
+---
+Génération automatique de code
+
+---
+Travail collaboratif
+
+Compatible avec Obeo Designer Team, Information System Designer peut être utilisé pour travailler à plusieurs simultanément sur les mêmes modèles, sans passer par un partage fastidieux et risqué de fichiers XMI :
+
+stockage des modèles sur un serveur partagé,
+verrouillage automatique des éléments en cours de modification,
+libération automatique des verrous après la sauvegarde des modifications,
+rafraîchissement instantané des modèles permettant à chaque utilisateur de toujours travailler sur une version à jour.
+
+---
+Solution Open Source
+
+Créée avec Eclipse Sirius, Information System Designer est une solution open source qui peut facilement être adaptée ou étendue pour correspondre plus précisément à vos besoins :
+
+génération pour d'autres langages ou frameworks,
+ajout d'autres langages visuels, basés sur des notations graphiques différentes,
+intégration avec vos propres plug-ins,
+modification du workflow pour supporter votre processus de développement.
+
+---
+Pourquoi pas UML ?
+
+Plutôt que le langage de modélisation UML (Unified Modeling Language), Information System Designer utilise un DSL (Domain Specific Language) dédié aux différents besoins auxquels répond l’atelier. 
+
+L’utilisation d’UML aurait nécessité d’étendre ce langage (définition de stéréotypes, de tagged-values et de règles de modélisation) qui complexifient l’activité d’analyse et de conception.
+
+Au contraire, le DSL proposé par Information System Designer a été conçu spécialement pour cet atelier pour faciliter l’expression de chacun des domaines d’une application (interactions, services, bases de données, IHM, etc).
+
+
