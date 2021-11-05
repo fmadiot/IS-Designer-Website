@@ -119,6 +119,11 @@ color: #261e58;
 section {
   padding: 40px;
 }
+
+.banner {
+	color: #FFF;
+}
+
 .block-center {
   float: none;
   margin: 0 auto;
