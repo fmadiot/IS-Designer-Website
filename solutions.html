@@ -1,29 +1,30 @@
 ---
 layout: isdesigner_default
-title: Information System Designer | Fonctionnalités - Vue d'ensemble
+title: Information System Designer | Solutions
 ---
 
 <section id="" class="text-center">
     <div class="container">
             {% include block_heading.html
                 title="Analyse et Conception d’applications"                
-                sub_title="Identifier les besoins des utilisateurs et concevoir la solution"
-                desc="Dans le processus de développement d’une application, Information System Designer s’adresse principalement aux <a href=\"\">analystes métier</a> et aux concepteurs applicatifs (<a href=\"\">front-end</a> et <a href=\"\">back-end</a>).  Elle leur permet de spécifier ensemble l’application à développer et de mieux la partager avec les <a href=\"\">architectes applicatifs</a>, les <a href=\"\">développeurs</a> et les <a href=\"\">Ops</a> en charge du déploiement."
-
-                img_src="images/illustrations/solutions.png"
-                img_title="Information System Designer - What is Information System Designer?"
-                img_class=""
-
+                sub_title=""
+                desc="Information System Designer permet de faire collaborer différents acteurs<br>
+                    pour mieux identifier les besoins des utilisateurs et concevoir la solution"
             %}
     </div>
 </section>
-
-<section id="" class="bg_lightest_grey text-center">
+<p  class="text-center">
+    <img src="images/illustrations/solutions.png">
+</p>
+<br>
+<section class="bg_lightest_grey text-center">
     <div class="container">
             {% include block_heading.html
-                title="Atelier unique"                
+                title="Un atelier partagé"                
                 sub_title=""
-                desc=""
+                desc="Dans le processus de développement d’une application, Information System Designer s’adresse<br>
+                    aux analystes métier et aux concepteurs applicatifs (front-end et back-end).<br>
+                    Elle leur permet de spécifier ensemble l’application à développer."
             %}
 
             <div class="row">
@@ -31,163 +32,93 @@ title: Information System Designer | Fonctionnalités - Vue d'ensemble
                     col="4"
                     icon_name="fas fa-users"
                     icon_color="txt_indigo"
-                    title="Analyste Métier" 
-                    desc="<p>Information System Designer assiste les analystes métiers dans le processus d’identification et de formalisation des besoins métiers :<br>
-       - Formaliser les exigences<br>
-       - Spécifier les cas d’utilisation<br>
-       - Identifier les entités métier</p>
-    <p>Une description visuelle facilite les échanges aussi bien avec les utilisateurs qu’avec les équipes de conception et de développement.</p>"
+                    title="Analystes métier" 
+                    desc="<ul class='list-unstyled'>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Formaliser les exigences et les besoins métiers</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Spécifier les cas d’utilisation</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Identifier les entités métier</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Maquetter les IHM.</li>
+</ul>"
                 %}
                 {% include block_cols.html
                     col="4"
                     icon_name="fas fa-desktop"
                     icon_color="txt_indigo"
-                    title="Concepteur Front-End" 
-                    desc="<p>Information System Designer offre aux concepteurs front-end une vision globale de l'application à développer, et leur permet de spécifier graphiquement les écrans à développer :<br>
-        - Maquettage<br>
-        - Dynamique d'enchaînement<br>
-        - Données manipulées<br>
-        - Interactions avec le back-end</p>"
+                    title="Concepteurs Front-End" 
+                    desc="<ul class='list-unstyled'>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Identifier les états d'une application</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Spécifier l'enchaînement des écrans</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Concevoir la structure des IHM</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Définir les données manipulées par les écrans</li>
+</ul>"
                 %}
                 {% include block_cols.html
                     col="4"
                     icon_name="fas fa-server"
                     icon_color="txt_indigo"
-                    title="Concepteur Back-End" 
-                    desc="Définir les services applicatifs, les objets métiers et la base de données"
+                    title="Concepteurs Back-End" 
+                    desc="              <ul class='list-unstyled'>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Définir les services applicatifs</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Spécifier les objets métier</li>
+    <li><i class='fa fa-check' aria-hidden='true'></i> Concevoir la base de données</li>
+</ul>"
                 %}
             </div>
-
-        </div>
-    </section>
-
-
-
-
-<section id="" class="">
-    <div class="container">
-        {% include block_text_image.html
-            txt_order="order-1"
-            title="Analyse Métier"                
-            desc="<p>Information System Designer assiste les analystes métiers dans le processus d’identification et de formalisation des besoins métiers :
-        <ul>
-            <li>Formaliser les exigences</li>
-            <li>Spécifier les cas d’utilisation</li>
-            <li>Identifier les entités métier</li>
-        </ul></p>
-    <p>Une description visuelle facilite les échanges aussi bien avec les utilisateurs qu’avec les équipes de conception et de développement.</p>"
-        
-            lnk_txt="Graal Designer"
-            lnk_href="graal-designer.html"
-            lnk_target=""
-            lnk_icon="fas fa-arrow-alt-circle-right"
-
-            img_order="order-2"
-            img_src="images/illustrations/sirius-overview.png"
-            img_title="Information System Designer - What is Information System Designer?"
-        %}
     </div>
 </section>
 
-<section id="">
+<section class="text-center">
     <div class="container">
-        {% include block_text_image.html
-            txt_order="order-2"
-            title="Conception Front-end"                
-            desc="<p>Information System Designer offre aux concepteurs front-end une vision globale de l'application à développer, et leur permet de spécifier graphiquement les écrans à développer :
-        <ul>
-        <li>maquettage</li>
-        <li>dynamique d'enchaînement</li>
-        <li>données manipulées</li>
-        <li>interactions avec le back-end</li>
-        </ul></p>"
-        
-            lnk_txt="Cinematic Designer"
-            lnk_href="cinematic-designer.html"
-            lnk_target=""
-            lnk_icon="fas fa-arrow-alt-circle-right"
+            <div class="row">
+               <div class="col-md-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                   <img width='200' src='images/illustrations/didier-feret.png' style="float:right;padding:0">
+                </div>
+               <div class="col-md-8 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                   <p><font size="+1"><i>"Sur un projet de 6500 j/h avec une vingtaine d'analystes et de développeurs,<br>
+    Information System Designer nous a permis de <b>limiter les risques d'erreur</b><br>
+    en validant beaucoup plus en en amont les spécifications de l'application.<br>
+    Et grâce à ces spécifications détaillées, nous avons pu produire automatiquement<br>
+    jusqu'à 80% du code sur le backend, avec un résultat <b>beaucoup mieux structuré</b>,<br>
+                       <b>plus propre</b> et <b>entièrement normalisé</b>."</i></font></p>
+    <br>
+<h2>Didier Feret, Architecte au Ministère des Armées</h2>
 
-            img_order="order-1"
-            img_src="images/illustrations/sirius-overview.png"
-            img_title="Information System Designer - What is Information System Designer?"
-        %}
-    </div>
+                </div>
+              </div>
+
 </section>
 
-<section id="">
+<section class="bg_lightest_grey text-center">
     <div class="container">
-        {% include block_text_image.html
-            txt_order="order-1"
-            title="Conception Back-end"                
-            desc="<p>Information System Designer permet aux concepteurs back-end de définir une architecture de services applicatifs réutilisables, ainsi que les objets métiers et les bases de données correspondantes.</p>
-            <p>Les applications et bases de données existantes peuvent être facilement rétro-modélisées pour faciliter l'intégration de la nouvelle application."
-        
-            lnk_txt="SOA Designer"
-            lnk_href="soa-designer.html"
-            lnk_target=""
-            lnk_icon="fas fa-arrow-alt-circle-right"
-
-            img_order="order-2"
-            img_src="images/illustrations/sirius-overview.png"
-            img_title="Information System Designer - What is Information System Designer?"
-        %}
-    </div>
-</section>
-
-<section id="" class="bg_lightest_grey">
-    <div class="container text-center">
             {% include block_heading.html
-                title="Autres activités IT"                
+                title="Liens avec d'autres activités IT"                
                 sub_title=""
-                desc=""
+                desc="L'approche visuelle et formelle de Information System Designer facilite la collaboration<br>
+                    avec les autres activités impliquées dans le développement et la maintenance d'applications."
             %}
-    </div>
-    <div class="container">
-        {% include block_text_image.html
-            txt_order="order-1"
-            title="Architecture Applicative"                
-            desc="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-        
-            lnk_txt="Obeo SmartEA"
-            lnk_href=""
-            lnk_target="blank"
-            lnk_icon="fas fa-arrow-alt-circle-right"
 
-            img_order="order-2"
-            img_src="images/illustrations/sirius-overview.png"
-            img_title="Information System Designer - What is Information System Designer?"
-        %}
-    </div>
-    <div class="container">
-        {% include block_text_image.html
-            txt_order="order-2"
-            title="Dev"                
-            desc="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-        
-            lnk_txt="Générateurs de code"
-            lnk_href=""
-            lnk_target="blank"
-            lnk_icon="fas fa-arrow-alt-circle-right"
-
-            img_order="order-1"
-            img_src="images/illustrations/sirius-overview.png"
-            img_title="Information System Designer - What is Information System Designer?"
-        %}
-    </div>
-    <div class="container">
-        {% include block_text_image.html
-            txt_order="order-1"
-            title="Ops"                
-            desc="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-        
-            lnk_txt=""
-            lnk_href=""
-            lnk_target="blank"
-            lnk_icon=""
-
-            img_order="order-2"
-            img_src="images/illustrations/sirius-overview.png"
-            img_title="Information System Designer - What is Information System Designer?"
-        %}
+            <div class="row">
+                {% include block_cols.html
+                    col="4"
+                    icon_name="fas fa-cubes"
+                    icon_color="txt_indigo"
+                    title="Architectes applicatifs" 
+                    desc="Vérifier comment l'application implémente<br>les principes d'architecture définis en amont."
+                %}
+                {% include block_cols.html
+                    col="4"
+                    icon_name="fas fa-code"
+                    icon_color="txt_indigo"
+                    title="Développeurs" 
+                    desc="Disposer d'une spécification claire et précise<br>des composants applicatifs à développer."
+                %}
+                {% include block_cols.html
+                    col="4"
+                    icon_name="fas fa-sitemap"
+                    icon_color="txt_indigo"
+                    title="Ops" 
+                    desc="Comprendre les différents composants applicatifs<br>à déployer et à administrer."
+                %}
+            </div>
     </div>
 </section>
